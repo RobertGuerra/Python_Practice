@@ -1,6 +1,10 @@
+'''simple program that when a function "get_attractions_for_traveler is called it suggests a location
+in that city. '''
+
+
 destinations = ["Paris, France", "Shanghai, China", "Los Angeles, USA", "São Paulo, Brazil", "Cairo, Egypt"]
 
-test_traveler = ['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]
+test_traveler = ['Rob', 'Shanghai, China', ['historical site', 'art']]
 
 def get_destination_index(destination):
   destination_index = destinations.index(destination)
